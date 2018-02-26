@@ -17,7 +17,7 @@ class Doctor
          appointment.patient
          #binding.pry
     end
-    binding.pry
+    #binding.pry
 
   end
 end
