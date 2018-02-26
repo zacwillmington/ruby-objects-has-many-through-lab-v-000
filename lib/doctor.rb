@@ -19,5 +19,7 @@ class Doctor
     end
   end
 
+  binding.pry
+
 
 end
