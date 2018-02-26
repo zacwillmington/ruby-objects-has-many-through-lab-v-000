@@ -14,7 +14,7 @@ class Doctor
 
   def patients
       self.appointments.each do |app|
-         puts app
+         puts app.date
       #binding.pry
     end
   end
