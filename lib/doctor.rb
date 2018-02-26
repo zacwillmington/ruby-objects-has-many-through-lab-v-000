@@ -11,4 +11,14 @@ class Doctor
     @appointments << new_appointment_intance
     new_appointment_intance.doctor = self
   end
+
+  def patients
+      binding.pry
+  end
+
+
 end
+
+
+
+
