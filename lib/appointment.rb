@@ -5,7 +5,7 @@ class Appointment
   def initialize(date, doctor)
     @date = date
     @doctor = doctor
-    sefl.add_appointment(doctor)
+    self.add_appointment(doctor)
   end
 
 end
