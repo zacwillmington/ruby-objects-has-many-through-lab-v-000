@@ -14,7 +14,7 @@ class Doctor
 
   def patients
       self.appointments.find_all do |app|
-         app
+         app.each{|i| puts i} 
       #binding.pry
     end
   end
