@@ -14,7 +14,7 @@ class Doctor
 
   def patients
       self.appointments.find_all do |appointment, patient|
-        puts patient
+         patient
       #binding.pry
     end
   end
