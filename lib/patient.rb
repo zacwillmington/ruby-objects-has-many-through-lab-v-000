@@ -5,7 +5,7 @@ class Patient
   def initialize(name)
     @name = name
     @appointments = []
-    
+
   end
 
   def add_appointment(new_appointment_intance)
@@ -14,8 +14,8 @@ class Patient
   end
 
   def doctors
-    self.appointments.collect do |doctor|
-        doctor.doctor
+    self.appointments.collect do |doc|
+        doc.doctor
     end
   end
 end
