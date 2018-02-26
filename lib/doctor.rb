@@ -13,8 +13,8 @@ class Doctor
   end
 
   def patients
-      self.appointments.find_all do |app|
-           app
+      self.appointments.find_all do |appointment, patient|
+        puts patient
       #binding.pry
     end
   end
