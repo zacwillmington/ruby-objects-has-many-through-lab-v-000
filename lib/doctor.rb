@@ -15,7 +15,7 @@ class Doctor
   def patients
       self.appointments.collect do |appointment|
          appointment.patient
-      #binding.pry
+         #binding.pry
     end
   end
 
