@@ -8,6 +8,6 @@ class Doctor
   end
 
   def add_appointment(new_appointment_intance)
-    
+    @appointments << new_appointment_intance
   end
 end
