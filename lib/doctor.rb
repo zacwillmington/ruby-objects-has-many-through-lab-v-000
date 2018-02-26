@@ -6,4 +6,8 @@ class Doctor
     @name = name
     @appointments = []
   end
+
+  def add_appointment(new_appointment_intance)
+    
+  end
 end
