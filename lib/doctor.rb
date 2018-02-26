@@ -14,7 +14,7 @@ class Doctor
 
   def patients
       self.appointments.collect do |app|
-        puts app
+         app
       #binding.pry
     end
   end
