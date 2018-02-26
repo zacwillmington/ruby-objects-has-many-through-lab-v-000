@@ -13,7 +13,10 @@ class Doctor
   end
 
   def patients
-      #binding.pry
+      self.appointments.each do |app|
+        puts app
+      binding.pry
+    end
   end
 
 
